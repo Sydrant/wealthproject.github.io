@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Animate</title>
+			
+			<meta charset="UTF-8">
+			<meta name="author" content="Ethan">
+			<meta name="keywords" content="HTML, CSS, JavaScript">
+			<meta name="revised" content="28-06-2020">
+			
+			<link rel="icon" href="icon.png" type="image/gif">
+			
+			<style>	
+				h1{
+					font-size: 30px;
+					display: inline;
+					float: left;
+				}
+				
+				ul{
+					list-style-type: none;
+					float: right;
+					display: inline;
+					padding-right: 270;
+				}
+				
+				li{
+					display: inline-block;
+					font-family: "Nova Slim", cursive, sans-serif;
+				}
+				
+				li a{
+					text-decoration: none;
+					padding-left: 100px;
+				}
+				
+				.sprite{
+					background: url('../images/walking.jpg') no-repeat 0 0;
+					width: 97px;
+					height: 124px;
+					animation: varName 1s steps(4) infinite;
+					float: left;
+					clear: left;
+				}
+				
+				@keyframes varName{
+					from{background-position-x: 0;}
+					to{background-position-x: -405px;}
+				}
+			</style>
+	</head>
+	
+	<body>
+		<h1>Wealth Project</h1>
+		
+		<ul>
+			<li><a href= "index.html">Home</a></li>
+			<li><a href= "content.html">Contents</a></li>
+			<li><a href= "animate.html">Animate</a></li>
+			<li><a href= "audio.html">Thanks</a></li>
+			<li><a href= "contacts.html">Contacts</a></li>
+		</ul>
+		
+			<div class="sprite"></div>
+	</body>
+</html>

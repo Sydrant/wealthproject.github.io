@@ -1,0 +1,42 @@
+			#Content{
+				font-size: 50px;
+				float: left;
+				margin: 50px;
+			}
+			
+			#Header{
+				font-size: 30px;
+				display: inline;
+				float: left;
+			}
+			
+			h1{
+				display: inline;
+			}
+			
+			#Image{
+				float: left;
+			}
+			
+			ul {
+				list-style-type: none;
+				float: right;
+				display: inline;
+				padding-top: 15px;
+				padding-right: 270;
+			}
+			
+			li{
+				display: inline-block;
+				font-family: "Nova Slim", cursive, sans-serif;
+			}
+			
+			li a{
+				text-decoration: none;
+				padding-left: 100px;
+			}
+			
+			h2, p{
+				float: left;
+				clear: both;
+			}
